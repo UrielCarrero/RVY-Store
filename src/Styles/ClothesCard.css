@@ -1,0 +1,51 @@
+.img__container{
+    position: relative;
+    padding: auto;
+}
+
+.card__media{
+    padding: 30px;
+    min-height: 350px;
+    max-height: 350px;
+    width: 290px;
+    transition: 0.4s;
+}
+
+
+.card__media:hover {
+    transform: scale(1.1);
+    transform-origin: center;
+    
+}
+
+.card__link {
+    text-decoration: none;
+}
+
+.card__price{
+    position: absolute;
+    top: -42px;
+    left: 4px;
+}
+
+.card__price{
+    background-color: #cfe2cc;
+    position: relative;
+    color: #262b25;
+    font-size: medium;
+    font-weight: 700;
+    padding: 2px;
+    border: 5px 5px;
+    border-color: #262b25;
+    margin: 2px;
+}
+
+.card__content{
+    position: absolute;
+    top: 330px;
+    left: 4px;
+}
+
+.card__name{
+    font-size: medium;
+}

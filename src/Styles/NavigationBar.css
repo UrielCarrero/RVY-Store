@@ -1,0 +1,193 @@
+.logo__nav{
+    margin-left: 5px;
+}
+.brand__nav{
+    display: inline; 
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+.nav-item{
+    width:min-content;
+}
+
+
+.navlink {
+    color: black;
+    font-weight: 450;
+    font-size: 19px;
+    margin: auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.under__line{
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+}
+
+.nav-item:hover .under__line {
+    border: 5px 0px 0px 0px;
+    background-color:black;
+}
+
+.navbar-text {
+    margin-left: 20px;
+    
+}
+
+.nav__sideicons{
+    display:inline-block !important;
+}
+
+.nav__sideicons > i {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.nav__sideicons > i:hover {
+    cursor:pointer;
+    background-color: rgb(194, 192, 192);
+}
+
+.modal__header{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.modal__header > button{
+    background-color:white;
+}
+
+.input__div{
+    position: relative;
+    border:2px solid gray;
+    width: 50%;
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 25px !important;
+    margin-left: 7%;
+}
+
+.form__content{
+    text-align: center;
+    justify-content: center;
+}
+
+.form__content>p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    font-size: 19px;
+}
+
+.form__label{
+    position:absolute;
+    left: 5px;
+    color:rgb(173, 173, 173);
+}
+
+.form__label:hover{
+    cursor:text;
+}
+
+.label__active{
+    font-size: 14px;
+    top: -15px;
+    background-color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 0px;
+}
+
+.form__input{
+    border:none;
+    width: 100%;
+}
+
+.form__input:focus{
+    border:none;
+    outline: none;
+    background-color: white;
+}
+
+.form__input:active{
+    background-color: white;
+}
+
+.form__button {
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15%;
+    height: 35px;
+}
+
+.form__button:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+.icon__container{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    text-align: center;
+    color:black;
+}
+
+.login__icon{
+    font-size: 100px !important;
+    padding: auto;
+    color:black;
+}
+
+.Err__mess{
+    color:rgb(187, 2, 2);
+    background-color: rgba(255, 0, 0, 0.151);
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    text-transform: lowercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.user__name{
+    font-size: large;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.nav__small{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .nav__medium{
+        display: none;
+    }
+
+    .nav__small{
+        display: inline;
+    }
+
+    .nav__small:focus{
+        border-color: black;
+        border: 1px;
+    }
+
+  }

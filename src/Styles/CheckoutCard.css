@@ -1,0 +1,96 @@
+.checkout__img{
+    width: 180px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.card__img{
+    display: block;
+    width: 40% !important;
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.chkcard__cont{
+    display:block;
+    width: 60% !important;
+}
+
+.headerchk__container{
+    position: relative;
+    background-color: black;
+}
+
+.card__name2{
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.icon__remove{
+    background-color: black;
+    font-size: 27px;
+    color:white;
+    height: max-content;
+    position: absolute;
+    top:0%;
+    left:87%;
+}
+
+.icon__remove:hover{
+    cursor: pointer;
+}
+
+.price__container, .quantity__container{
+    font-size: medium;
+    margin-top: 10px;
+    margin-left:10px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.moreless__container{
+    position:relative;
+}
+
+.icons__container{
+    position: absolute;
+    top:40%;
+    left:0%;
+    width: 30%;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left:10px;
+    padding:4px;
+    /*background-color: rgb(189, 189, 189); */
+    background-color: black;
+    color:white;
+    width: min-content;
+    border-radius: 15%;
+}
+
+.icons__container > span{
+    margin: 5px;
+
+}
+
+.icon__check{
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.icons__container > span:hover .icon__check{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+

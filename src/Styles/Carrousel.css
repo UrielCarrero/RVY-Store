@@ -1,0 +1,12 @@
+.homeslider__container{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.homeslider__content{
+    text-align: center;
+}

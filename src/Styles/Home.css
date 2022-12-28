@@ -1,0 +1,40 @@
+.main__images{
+    width:90%;
+    z-index: -100;
+    opacity: 1.2;
+    
+}
+
+.mainimages__container{
+    position: relative;
+    align-items: center ;
+    justify-content: center !important;
+    text-align:center;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.messages__home{
+    object-fit: contain;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.504);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 800px){
+    .messages__home{
+        top: 30%;
+    }
+    .mainimages__container{
+        margin: 20px;
+        height: 200px;
+    }
+  }

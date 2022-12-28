@@ -1,0 +1,1 @@
+export const baseUrl = 'let url = `https://fakestoreapi.com'
