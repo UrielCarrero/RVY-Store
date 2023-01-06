@@ -23,13 +23,13 @@ export const CheckoutCard = (props: interfaceCard):JSX.Element => {
 
     if(!props.isLoading){
         return (<>
-            <Card sx={{ width: 0.9, height: 270, margin:3, border: 1 }}>
+            <Card className="checkoutcard__container" sx={{ width: 0.9, margin:3, border: 1 }}>
 
                     <div className="row">
-                        <span className="col-md-6 card__img">
+                        <span className="col-sm-5 card__img">
                             <img src={props.image} alt={`product_${props.index}`} className="checkout__img"/>
                         </span>
-                        <span className="col-md-6 chkcard__cont">
+                        <span className="col-sm-7 chkcard__cont">
                         
                             <div className="headerchk__container">
                                 <div className="card__name2 col-10">{props.title}</div>

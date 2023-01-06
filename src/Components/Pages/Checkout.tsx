@@ -27,7 +27,7 @@ export const Checkout = (props:IPropsCheckout) => {
                 
             </div>
             <hr/>
-            <div className="row">
+            <div style={{padding:"5%"}} className="row">
                 <span className="col-md-8">
                     <h3 className="your__cart">Your Cart</h3>
                     <div className='summary__chk'>

@@ -47,7 +47,7 @@ export const NavigationBar = ({state, emailValidation, setValidationState, passw
         }
     }
 
-    const handleSubmit = (e:any) => {
+    const handleSubmit = (e?:any) => {
         if(state.validationProcess==="not started"){
             emailValidation(userEmail)
         }
@@ -67,6 +67,7 @@ export const NavigationBar = ({state, emailValidation, setValidationState, passw
             logout()
             toggleMainModal()
         }
+
         e.preventDefault()
     }
 
@@ -178,7 +179,12 @@ export const NavigationBar = ({state, emailValidation, setValidationState, passw
             </Navbar>
             
             <div>
-                <Modal isOpen={isModalFormOpen} toggle={toggleMainModal}>
+                <Modal onClosed={
+                    ()=>{
+                        if (state.validationProcess==="validated user")
+                            setValidationState("finished") 
+                    }
+                } isOpen={isModalFormOpen} toggle={toggleMainModal}>
                     <ModalHeader className="modal__header" toggle={toggleMainModal}>Log In / Sign Up</ModalHeader>
                     <ModalBody>
                         <div className="icon__container">

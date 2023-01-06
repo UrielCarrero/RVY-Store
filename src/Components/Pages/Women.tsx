@@ -12,7 +12,7 @@ export const Women = ({state, fetchProducts, loadingProducts}:any):JSX.Element =
     
     let products = state.products
 
-    const [subSection, setSubSection]=useState<string>("SHIRTS");
+    const [subSection, setSubSection]=useState<string>("Women");
 
     useEffect(() => {
 

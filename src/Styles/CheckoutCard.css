@@ -1,3 +1,8 @@
+.checkoutcard__container{
+    height: fit-content;
+    max-height: 300px;
+}
+
 .checkout__img{
     width: 180px;
     height: 250px;
@@ -8,14 +13,20 @@
 
 .card__img{
     display: block;
-    width: 40% !important;
+    width: 40%;
     text-align: center;
     margin-top: 10px !important;
+    padding-left: 0;
+}
+
+.card__img>img{
+    width: 100%;
+    max-width: 223px;
 }
 
 .chkcard__cont{
     display:block;
-    width: 60% !important;
+    width: 60%;
 }
 
 .headerchk__container{
@@ -73,7 +84,7 @@
     background-color: black;
     color:white;
     width: min-content;
-    border-radius: 15%;
+    border-radius: 10px;
 }
 
 .icons__container > span{
@@ -93,4 +104,37 @@
 
 }
 
+@media screen and (max-width: 578px){
+    .card__img{
+        width: 100%;
+    }
+    .chkcard__cont{
+        width: 100%;
+    }
+
+    .checkoutcard__container{
+        max-height: fit-content;
+    }
+
+    .icons__container{
+        top:0px;
+        left: 70%;
+    }
+
+    .moreless__container{
+        top:-70px;
+        width: 100%;
+    }
+
+    .chkcard__cont{
+        padding-bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 364px){
+    .icons__container{
+        left: 65%;
+    }
+}
 
