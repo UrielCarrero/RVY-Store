@@ -43,6 +43,7 @@
 .detadd__button, .det__favorites {
     margin-left: 2%;
     margin-right: 2%;
+    white-space: nowrap;
 }
 
 .detadd__button{
@@ -52,6 +53,14 @@
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
+    width: fit-content;
+}
+
+.detadd__button > i {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
 }
 
 .detadd__button:hover{
@@ -64,6 +73,7 @@
     background-color: white;
     color: black;
     font-size: 20px;
+    min-width: 60px;
 }
 
 .selected__favorite{
@@ -75,9 +85,7 @@
 }
 
 .detadd__button > i {
-    margin-left: 5%;
-    min-width: 100px !important;
-    
+    margin-left: 5%;    
 }
 
 .modal__message{

@@ -41,10 +41,13 @@ export const Footer = ():JSX.Element => {
 
             <div className='col-md-3 col-sm-6 social__media'>
                 <span className='messages__ft'>Follow us to keep up to date with our awesome events and promotions!</span> <br/>
-                <a href='https://www.instagram.com/'><i className="ri-instagram-line social__icon"></i></a> 
-                <a href='https://www.facebook.com/'><i className="ri-facebook-fill social__icon"></i></a> 
-                <a href='https://www.youtube.com/'><i className="ri-youtube-line social__icon"></i></a> 
-                <a href='https://twitter.com//'><i className="ri-twitter-fill social__icon"></i></a> 
+                <div>
+                    <a href='https://www.instagram.com/'><i className="ri-instagram-line social__icon"></i></a> 
+                    <a href='https://www.facebook.com/'><i className="ri-facebook-fill social__icon"></i></a> 
+                    <a href='https://www.youtube.com/'><i className="ri-youtube-line social__icon"></i></a> 
+                    <a href='https://twitter.com//'><i className="ri-twitter-fill social__icon"></i></a> 
+                </div>
+                
             </div>
         </div>
         <div className='row'>

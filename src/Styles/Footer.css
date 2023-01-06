@@ -2,6 +2,9 @@
 .footer__cmp{
     background-color: rgb(20, 20, 20);
     color: rgb(200, 200, 200);
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 15px;
 }
 
 .brand__name, .contact__us{
@@ -42,15 +45,21 @@
     color: white;
 }
 
-.social__media > a {
+.social__media > div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social__media > div > a {
     text-decoration: none;
-    margin: 25px;
     font-size: 130%;
 }
 
-.social__media > a:hover {
+.social__media > div > a:hover {
     text-decoration: none;
 }
+
+
 
 .social__icon{
     color:rgb(20, 20, 20);

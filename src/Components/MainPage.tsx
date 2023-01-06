@@ -1,5 +1,5 @@
 
-import React,{Component, useEffect} from 'react';
+import React from 'react';
 import {NavigationBar} from './NavigationBar';
 import {Routers} from './Routers';
 import {Footer} from './Footer';
@@ -54,18 +54,14 @@ const mapDispatchToProps = (dispatch:AppDispatch) => {
   };
 
 const MainPage = (props:IPropsMain) => {
-    useEffect(() => {
-        //men's%20clothing
-        //women's%20clothing
-        //fetchProducts("category/men's%20clothing");
-    }, []);
+
   
     return (
         <>
             <NavigationBar state={props.state.user} emailValidation={props.emailValidation} 
                             setValidationState={props.setValidationState} passwordValidation={props.passwordValidation}
                             logout={props.logout} postUser={props.postUser}/>
-            <div>
+            <div style={{maxWidth:"100%", overflow:"hidden"}}>
                 <Routers props={props} />
             </div>
             <Footer />
